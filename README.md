@@ -160,3 +160,19 @@ pip install langchain langchain-openai langchain-community langchain-text-splitt
 
 # Run
 python main.py
+
+
+
+Option B: Requirements File
+Create requirements.txt on source PC:
+
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+chromadb
+python-dotenv
+pypdf
+docx2txt
+
+pip install -r requirements.txt
