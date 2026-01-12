@@ -143,3 +143,20 @@ The application includes comprehensive error handling for:
 - Persistent vector storage with ChromaDB
 - Optimized retrieval with configurable parameters
 - Memory-efficient processing of large documents
+
+Setup
+
+# Create virtual environment
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (Linux/Mac)
+source venv/bin/activate
+
+# Install dependencies
+pip install langchain langchain-openai langchain-community langchain-text-splitters chromadb python-dotenv pypdf docx2txt
+
+# Run
+python main.py
